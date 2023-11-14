@@ -13,3 +13,52 @@
 	padding-left: 15px;
 	border-radius: 40px;
 }
+
+.navdiv{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.dropdown{
+	display: inline-block;
+	font-family: calibri;
+	font-size: 18px;
+}
+
+.dropdown button{
+	background-color: mediumorchid;
+	color: white;
+	font-weight: bold;
+	margin-right: 10px;
+	border-radius: 10px;
+	padding: 10px;
+	width: 90px;}
+
+.dropdown a{
+	display: block;
+	color: white;
+}
+
+.dropdown .content{
+	display: none;
+	position: absolute;
+	background-color: mediumorchid;
+	padding: 5px;
+	align-items: center;
+	box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+	width: 100px;
+}
+
+.dropdown:hover .content{
+	display: block;
+}
+
+.dropdown button:hover{
+	background-color: darkorchid;
+}
+
+.dropdown a:hover{
+	background-color: darkorchid;
+}
+
