@@ -1,0 +1,15 @@
+@import url("https//fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+*{
+	text-decoration: none;
+}
+
+.navbar{
+	background: lemonchiffon;
+	font-family: "Poppins", sans-serif;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+	border-radius: 40px;
+}
